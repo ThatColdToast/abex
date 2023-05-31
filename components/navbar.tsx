@@ -23,7 +23,7 @@ const Navbar = (props: {tab: string}) => {
 
   return (
     <div className="flex flex-grow h-8 justify-center items-center bg-gray-700 text-white">
-      <h1 className="p-1 text-xl">Shift Tracker</h1>
+      <h1 className="p-1 text-xl">abex</h1>
       <ul className="flex flex-row">
         <li>
           {props.tab == "home" ? <Link href="/" className="m-4 p-1 pb-4 rounded-md border-b-2 border-white bg-red-700">Home</Link> : <Link href="/" className="m-4 p-1 rounded-md hover:bg-gray-300 transition-all">Home</Link>}
